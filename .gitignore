@@ -1,0 +1,22 @@
+*~
+.DS_Store
+.idea
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+node_modules
+package-lock.json
+dist
+mix-manifest.json
+
+# wordpress
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/*
+wp-content/backup-db/*
+wp-content/wp-cache-config.php
+wp-content/cache/*
+wp-content/settings/*
