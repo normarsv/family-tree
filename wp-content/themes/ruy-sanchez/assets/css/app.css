@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "ArticulatCF";
+    src: url(fonts/articulatcf-demibold.otf) format("opentype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "ArticulatCF";
+    src: url(fonts/articulatcf-regular.otf) format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "WayfinderCF";
+    src: url(fonts/wayfindercf-bold.otf) format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "WayfinderCF";
+    src: url(fonts/wayfindercf-regular.otf) format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+        transform: translateX(0)
+    }
+    1% {
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-50%)
+    }
+}
+
+.animate-scroll-infinite {
+    animation: scroll 15s linear infinite;
+}
+
+.radio-button-active {
+    @apply text-white bg-accent;
+}
+
+a.nav-link[aria-current="page"] {
+    @apply text-accent underline;
+}
+
+.center {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

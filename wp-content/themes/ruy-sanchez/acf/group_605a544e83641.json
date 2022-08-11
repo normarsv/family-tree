@@ -1,0 +1,44 @@
+{
+    "key": "group_605a544e83641",
+    "title": "CTA",
+    "fields": [
+        {
+            "key": "field_605a54721bf12",
+            "label": "CTA",
+            "name": "cta",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "flexible-content.php"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "flexible-content.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1616532741
+}
